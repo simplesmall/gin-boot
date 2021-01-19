@@ -16,3 +16,5 @@ func (res ResponseStructure) NotFound() (result ResponseStructure) {
 	}
 }
 
+
+

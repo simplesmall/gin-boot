@@ -19,4 +19,17 @@ paths:
           schema:
             type: string
       summary: 登录测试接口
+      tags:
+      - 登录
+  /api/v1/notfound:
+    get:
+      description: notfound测试接口描述信息
+      responses:
+        "200":
+          description: ok
+          schema:
+            type: string
+      summary: notfound测试接口
+      tags:
+      - NotFound
 swagger: "2.0"

@@ -11,6 +11,7 @@ go get -u github.com/jinzhu/gorm
 go get -u github.com.jinzhu/gorm/dialects/mysql
 go get -u github.com/swaggo/swag/cmd/swag
 swag init 
+go get -u github.com/dgrijalva/jwt-go
 ```
 
 ```sh

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"gin-boot/config"
 	"gin-boot/routers"
 )
 
@@ -17,5 +18,6 @@ import (
 // @host 127.0.0.1:8090
 // @BasePath
 func main() {
+	defer config.CloseDB()
 	routers.InitServer()
 }

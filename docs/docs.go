@@ -34,7 +34,27 @@ var doc = `{
         "/api/v1/login": {
             "get": {
                 "description": "登录测试接口描述信息",
+                "tags": [
+                    "登录"
+                ],
                 "summary": "登录测试接口",
+                "responses": {
+                    "200": {
+                        "description": "ok",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/notfound": {
+            "get": {
+                "description": "notfound测试接口描述信息",
+                "tags": [
+                    "NotFound"
+                ],
+                "summary": "notfound测试接口",
                 "responses": {
                     "200": {
                         "description": "ok",
